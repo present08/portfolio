@@ -30,8 +30,14 @@
     transform: translate(-50%, -50%);
   }
 
+  .about__container--main,
+  .about__container--profile {
+    padding: 12px;
+  }
+
   .about__description {
     padding: 0;
+    text-align: inherit;
   }
 
   .about__profile {
