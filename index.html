@@ -1,251 +1,298 @@
 <!DOCTYPE html>
 <html lang="ko">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muam's portfolio</title>
+    <link rel="icon" type="image/png" sizes="150x150" href="favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <script defer type="text/javascript" src="script.js"></script>
-    <script src="https://kit.fontawesome.com/1f6d71235d.js" crossorigin="anonymous"></script>
-</head>
+    <script
+      src="https://kit.fontawesome.com/1f6d71235d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <nav id="navbar">
-        <div class="navbar__title">
-            <a>Muam's Portfolio</a>
-        </div>
-        <ul class="navbar__menu">
-            <li class='navbar__menu__item active' data-link="#home">Home</li>
-            <li class='navbar__menu__item' data-link="#about">About</li>
-            <li class='navbar__menu__item' data-link="#work">Project</li>
-            <li class='navbar__menu__item' data-link="#contact">Contact</li>
-        </ul>
-        <button class="navbar__toggle-btn">
-            <i class="fas fa-bars"></i>
-        </button>
+      <div class="navbar__title">
+        <a
+          ><img src="favicon.png" alt="icon" class="navbar__logo" /> Muam's
+          Portfolio</a
+        >
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item active" data-link="#home">Home</li>
+        <li class="navbar__menu__item" data-link="#about">About</li>
+        <li class="navbar__menu__item" data-link="#work">Project</li>
+        <li class="navbar__menu__item" data-link="#contact">Contact</li>
+      </ul>
+      <button class="navbar__toggle-btn">
+        <i class="fas fa-bars"></i>
+      </button>
     </nav>
     <section id="home">
-        <div class="home__title">
-            <h1 class="home__title-title">Hello,<br>Muam's Portfolio</h1>
-            <h3 class="home__description"><span class="description-block">#도전하는 웹 퍼블리셔</span> &nbsp; <span
-                    class="description-block">#노력하는 웹
-                    퍼블리셔</span>
-            </h3>
-        </div>
+      <div class="home__title">
+        <h1 class="home__title-title">Hello,<br />Muam's Portfolio</h1>
+        <h3 class="home__description">
+          <span class="description-block">#도전하는 웹 퍼블리셔</span> &nbsp;
+          <span class="description-block">#노력하는 웹 퍼블리셔</span>
+        </h3>
+      </div>
     </section>
     <section id="about">
-        <h1>About Me</h1>
-        <div class="about__avatar"></div>
-        <div class="about__container--main">
-            <p class="about__description"><b>반갑습니다!</b><br><br>저는 독창적인 UI와 <br>편리한 UX 디자인을 비롯한 웹페이지를 만드는 <br> <b>웹 퍼블리셔
-                    조무암입니다. </b><br><br>
-                저는 끊임없이 노력하며, 배우는 것을 좋아하고<br>배운지식을 더욱 쉽게 가르쳐주는 것을 좋아합니다.<br>원활한 커뮤니케이션 활동을 통해 협업하는 스타일이며,<br>피드백 또한 굉장히
-                선호합니다.<br>저는 여러 웹 사이트를 분석, 연구하며<br> 웹 사이트에 있는 코드를 제 것으로 소화하는 것을 잘합니다. <br>
-                부단한 노력으로 현재 실력에 안주하지않고 기술을 더욱 연마합니다.<br><br>목표를 향한 의지, 포기하지않는 노력, 폭발적인 영감 <br>저의 강점을 살려 좋은 웹 사이트를 만드는게 제
-                역할이고, 저의 일입니다.
-            </p>
-        </div>
-        <div class="about__container--profile">
-            <ul class="about__profile">
-                <li class="about__box">
-                    <h2># Profile</h2>
-                    <ul class="about__info">
-                        <li>조무암</li>
-                        <li>1997.01.23</li>
-                        <li>present_08@naver.com</li>
-                        <li>github.com/present08</li>
-                    </ul>
-                </li>
-                <li class="about__box">
-                    <h2># Skills</h2>
-                    <ul class="about__skill">
-                        <li><i class="fa fa-html5" aria-hidden="true"></i>
-                            HTML5<span class="about__num">99%</span>
-                            <div class="about__bar">
-                                <div class="about__bar-in" style="width:99%;"></div>
-                            </div>
-                        </li>
-                        <li><i class="fa fa-css3" aria-hidden="true"></i>
-                            CSS3<span class="about__num">90%</span>
-                            <div class="about__bar">
-                                <div class="about__bar-in" style="width:90%;"></div>
-                            </div>
-                        </li>
-                        <li><i class="fab fa-js"></i> JAVASCRIPT<span class="about__num">60%</span>
-                            <div class="about__bar">
-                                <div class="about__bar-in" style="width:60%;"></div>
-                            </div>
-                        </li>
-                        <li><img src='jquery.png' style="width:25px; height:25px;"> JQuery<span
-                                class="about__num">70%</span>
-                            <div class="about__bar">
-                                <div class="about__bar-in" style="width:70%;"></div>
-                            </div>
-                        </li>
-                    </ul>
-                    <ul class="about__skill-description">
-                        <li><i class="fa fa-check-circle" aria-hidden="true"></i>웹 표준에 준수한 마크업</li>
-                        <li><i class='fa fa-check-circle' aria-hidden="true"></i>유효성에 적합한 구조 설계</li>
-                        <li><i class="fa fa-check-circle" aria-hidden="true"></i>브라우저별 웹 접근성 준수</li>
-                        <li><i class="fa fa-check-circle" aria-hidden="true"></i>디바이스에 따른 유동적 반응형 웹 디자인</li>
-                        <li><i class="fa fa-check-circle" aria-hidden="true"></i>Photoshop 툴 사용 가능</li>
-                    </ul>
-                </li>
-                <li class="about__box about__box-flex">
-                    <div class="about__exp">
-                        <h2># Experience</h2>
-                        <ul>
-                            <li><b>2019.03</b> 하이미디어컴퓨터학원<br>
-                                웹표준실무(HTML5,CSS3) 수강
-                            </li>
-                            <li><b>2019.05</b> 하이미디어컴퓨터학원<br>
-                                웹표준실무(JAVASCRIPT,JQUERY) 수강</li>
-                        </ul>
-                    </div>
-                    <div class="about__key">
-                        <h2># Keyword</h2>
-                        <p># 침착한 # 사교로운 # 충성스런 <br># 협동심있는 # 호기심많은 # 생각이빠른</p>
-                    </div>
-                </li>
+      <h1>About Me</h1>
+      <div class="about__avatar"></div>
+      <div class="about__container--main">
+        <p class="about__description">
+          <b>반갑습니다!</b><br /><br />저는 독창적인 UI와 <br />편리한 UX
+          디자인을 비롯한 웹페이지를 만드는 <br />
+          <b>웹 퍼블리셔 조무암입니다. </b><br /><br />
+          저는 끊임없이 노력하며, 배우는 것을 좋아하고<br />배운지식을 더욱 쉽게
+          가르쳐주는 것을 좋아합니다.<br />원활한 커뮤니케이션 활동을 통해
+          협업하는 스타일이며,<br />피드백 또한 굉장히 선호합니다.<br />저는
+          여러 웹 사이트를 분석, 연구하며<br />
+          웹 사이트에 있는 코드를 제 것으로 소화하는 것을 잘합니다. <br />
+          부단한 노력으로 현재 실력에 안주하지않고 기술을 더욱 연마합니다.<br /><br />목표를
+          향한 의지, 포기하지않는 노력, 폭발적인 영감 <br />저의 강점을 살려
+          좋은 웹 사이트를 만드는게 제 역할이고, 저의 일입니다.
+        </p>
+      </div>
+      <div class="about__container--profile">
+        <ul class="about__profile">
+          <li class="about__box">
+            <h2># Profile</h2>
+            <ul class="about__info">
+              <li>조무암</li>
+              <li>1997.01.23</li>
+              <li>present_08@naver.com</li>
+              <li>github.com/present08</li>
             </ul>
-        </div>
+          </li>
+          <li class="about__box">
+            <h2># Skills</h2>
+            <ul class="about__skill">
+              <li>
+                <i class="fa fa-html5" aria-hidden="true"></i> HTML5<span
+                  class="about__num"
+                  >99%</span
+                >
+                <div class="about__bar">
+                  <div class="about__bar-in" style="width: 99%;"></div>
+                </div>
+              </li>
+              <li>
+                <i class="fa fa-css3" aria-hidden="true"></i> CSS3<span
+                  class="about__num"
+                  >90%</span
+                >
+                <div class="about__bar">
+                  <div class="about__bar-in" style="width: 90%;"></div>
+                </div>
+              </li>
+              <li>
+                <i class="fab fa-js"></i> JAVASCRIPT<span class="about__num"
+                  >60%</span
+                >
+                <div class="about__bar">
+                  <div class="about__bar-in" style="width: 60%;"></div>
+                </div>
+              </li>
+              <li>
+                <img src="jquery.png" style="width: 25px; height: 25px;" />
+                JQuery<span class="about__num">70%</span>
+                <div class="about__bar">
+                  <div class="about__bar-in" style="width: 70%;"></div>
+                </div>
+              </li>
+            </ul>
+            <ul class="about__skill-description">
+              <li>
+                <i class="fa fa-check-circle" aria-hidden="true"></i>웹 표준에
+                준수한 마크업
+              </li>
+              <li>
+                <i class="fa fa-check-circle" aria-hidden="true"></i>유효성에
+                적합한 구조 설계
+              </li>
+              <li>
+                <i class="fa fa-check-circle" aria-hidden="true"></i>브라우저별
+                웹 접근성 준수
+              </li>
+              <li>
+                <i class="fa fa-check-circle" aria-hidden="true"></i>디바이스에
+                따른 유동적 반응형 웹 디자인
+              </li>
+              <li>
+                <i class="fa fa-check-circle" aria-hidden="true"></i>Photoshop
+                툴 사용 가능
+              </li>
+            </ul>
+          </li>
+          <li class="about__box about__box-flex">
+            <div class="about__exp">
+              <h2># Experience</h2>
+              <ul>
+                <li>
+                  <b>2019.03</b> 하이미디어컴퓨터학원<br />
+                  웹표준실무(HTML5,CSS3) 수강
+                </li>
+                <li>
+                  <b>2019.05</b> 하이미디어컴퓨터학원<br />
+                  웹표준실무(JAVASCRIPT,JQUERY) 수강
+                </li>
+              </ul>
+            </div>
+            <div class="about__key">
+              <h2># Keyword</h2>
+              <p>
+                # 침착한 # 사교로운 # 충성스런 <br /># 협동심있는 # 호기심많은 #
+                생각이빠른
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
     <section id="work">
-        <h1>Work</h1>
-        <h3>Project</h3>
-        <div class="work__btn">
-            <button class='work__menu active' data-filter="*">All</button>
-            <button class='work__menu' data-filter="PC">PC</button>
-            <button class='work__menu' data-filter="Mobile">Mobile</button>
-            <button class='work__menu' data-filter="Responsive">Responsive Web</button>
-        </div>
+      <h1>Work</h1>
+      <h3>Project</h3>
+      <div class="work__btn">
+        <button class="work__menu active" data-filter="*">All</button>
+        <button class="work__menu" data-filter="PC">PC</button>
+        <button class="work__menu" data-filter="Mobile">Mobile</button>
+        <button class="work__menu" data-filter="Responsive">
+          Responsive Web
+        </button>
+      </div>
+      <ul class="work__project">
+        <li class="project__list main" data-type="PC">
+          <a href="#">
+            <div class="project__description">
+              <h3>Title</h3>
+              <span>Descriptions</span>
+            </div>
+          </a>
+        </li>
+        <li class="project__list main" data-type="PC">
+          <a href="#">
+            <div class="project__description">
+              <h3>Title</h3>
+              <span>Descriptions</span>
+            </div>
+          </a>
+        </li>
+        <li class="project__list main" data-type="Mobile">
+          <a href="#">
+            <div class="project__description">
+              <h3>Title</h3>
+              <span>Descriptions</span>
+            </div>
+          </a>
+        </li>
+        <li class="project__list main" data-type="Responsive">
+          <a href="#">
+            <div class="project__description">
+              <h3>Title</h3>
+              <span>Descriptions</span>
+            </div>
+          </a>
+        </li>
+        <li class="project__list main" data-type="Responsive">
+          <a href="#">
+            <div class="project__description">
+              <h3>Title</h3>
+              <span>Descriptions</span>
+            </div>
+          </a>
+        </li>
+        <li class="project__list main" data-type="Mobile">
+          <a href="#">
+            <div class="project__description">
+              <h3>Title</h3>
+              <span>Descriptions</span>
+            </div>
+          </a>
+        </li>
+        <li class="project__list main" data-type="PC">
+          <a href="#">
+            <div class="project__description">
+              <h3>Title</h3>
+              <span>Descriptions</span>
+            </div>
+          </a>
+        </li>
+        <li class="project__list main" data-type="PC">
+          <a href="#">
+            <div class="project__description">
+              <h3>Title</h3>
+              <span>Descriptions</span>
+            </div>
+          </a>
+        </li>
+      </ul>
+      <h3 class="mini_title">Mine Project</h3>
+      <div class="work__mini">
         <ul class="work__project">
-            <li class="project__list main" data-type="PC">
-                <a href="#">
-                    <div class="project__description">
-                        <h3>Title</h3>
-                        <span>Descriptions</span>
-                    </div>
-                </a>
-            </li>
-            <li class="project__list main" data-type="PC">
-                <a href="#">
-                    <div class="project__description">
-                        <h3>Title</h3>
-                        <span>Descriptions</span>
-                    </div>
-                </a>
-            </li>
-            <li class="project__list main" data-type="Mobile">
-                <a href="#">
-                    <div class="project__description">
-                        <h3>Title</h3>
-                        <span>Descriptions</span>
-                    </div>
-                </a>
-            </li>
-            <li class="project__list main" data-type="Responsive">
-                <a href="#">
-                    <div class="project__description">
-                        <h3>Title</h3>
-                        <span>Descriptions</span>
-                    </div>
-                </a>
-            </li>
-            <li class="project__list main" data-type="Responsive">
-                <a href="#">
-                    <div class="project__description">
-                        <h3>Title</h3>
-                        <span>Descriptions</span>
-                    </div>
-                </a>
-            </li>
-            <li class="project__list main" data-type="Mobile">
-                <a href="#">
-                    <div class="project__description">
-                        <h3>Title</h3>
-                        <span>Descriptions</span>
-                    </div>
-                </a>
-            </li>
-            <li class="project__list main" data-type="PC">
-                <a href="#">
-                    <div class="project__description">
-                        <h3>Title</h3>
-                        <span>Descriptions</span>
-                    </div>
-                </a>
-            </li>
-            <li class="project__list main" data-type="PC">
-                <a href="#">
-                    <div class="project__description">
-                        <h3>Title</h3>
-                        <span>Descriptions</span>
-                    </div>
-                </a>
-            </li>
+          <li class="project__list">
+            <a href="#">
+              <div class="project__description">
+                <h3>Title</h3>
+                <span>Descriptions</span>
+              </div>
+            </a>
+          </li>
+          <li class="project__list">
+            <a href="#">
+              <div class="project__description">
+                <h3>Title</h3>
+                <span>Descriptions</span>
+              </div>
+            </a>
+          </li>
+          <li class="project__list">
+            <a href="#">
+              <div class="project__description">
+                <h3>Title</h3>
+                <span>Descriptions</span>
+              </div>
+            </a>
+          </li>
+          <li class="project__list">
+            <a href="#">
+              <div class="project__description">
+                <h3>Title</h3>
+                <span>Descriptions</span>
+              </div>
+            </a>
+          </li>
         </ul>
-        <h3 class="mini_title">Mine Project</h3>
-        <div class="work__mini">
-            <ul class="work__project">
-                <li class="project__list">
-                    <a href="#">
-                        <div class="project__description">
-                            <h3>Title</h3>
-                            <span>Descriptions</span>
-                        </div>
-                    </a>
-                </li>
-                <li class="project__list">
-                    <a href="#">
-                        <div class="project__description">
-                            <h3>Title</h3>
-                            <span>Descriptions</span>
-                        </div>
-                    </a>
-                </li>
-                <li class="project__list">
-                    <a href="#">
-                        <div class="project__description">
-                            <h3>Title</h3>
-                            <span>Descriptions</span>
-                        </div>
-                    </a>
-                </li>
-                <li class="project__list">
-                    <a href="#">
-                        <div class="project__description">
-                            <h3>Title</h3>
-                            <span>Descriptions</span>
-                        </div>
-                    </a>
-                </li>
-            </ul>
-        </div>
+      </div>
     </section>
     <section id="contact">
-        <h1>Thank you !</h1>
-        <div class="contact__sns">
-            <i class="fab fa-github"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-facebook-square"></i>
-        </div>
-        <div class="contact__contact">
-            <ul class='contact__left'>
-                <li>Phone</li>
-                <li>Kakao</li>
-                <li>E-mail</li>
-            </ul>
-            <ul class='contact__right'>
-                <li>+82 10.9881.5248</li>
-                <li>BlueWinds08</li>
-                <li>present_08@naver.com</li>
-            </ul>
-        </div>
+      <h1>Thank you !</h1>
+      <div class="contact__sns">
+        <i class="fab fa-github"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook-square"></i>
+      </div>
+      <div class="contact__contact">
+        <ul class="contact__left">
+          <li>Phone</li>
+          <li>Kakao</li>
+          <li>E-mail</li>
+        </ul>
+        <ul class="contact__right">
+          <li>+82 10.9881.5248</li>
+          <li>BlueWinds08</li>
+          <li>present_08@naver.com</li>
+        </ul>
+      </div>
     </section>
-</body>
-
+  </body>
 </html>
