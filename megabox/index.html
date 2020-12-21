@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>라이프 시어터,메가박스</title>
+    <link rel="stylesheet" href="onepage-scroll.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+      <script src="http://code.jquery.com/jquery-3.1.1.js"></script>
+      <script src="jquery.onepage-scroll.js"></script>
+      <script defer src="script.js"></script>
+      <script defer src="benner.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <section class="main">
+            <div class="bg">
+                <div class="bg_pattern"></div>
+                <img src="images/magaboxBG.jpg" alt="backgroundImg" />
+            </div>
+            <div class="contentArea">
+                <h1>박스오피스</h1>
+                <div class='plus_movie'>
+                   <a href="#">+ 더 많은 영화보기</a>
+                </div>
+                <ul class="post_content cf">
+                    <li class="poster">
+                        <a href="#">
+                            <div class="screen">
+                                <img src="images/wonderwoman.jpg" alt="wonderwoman">
+                                <div class="movie_direction">
+                                    <p>세상이 기다린 히어로, 희망이 되다!</p>
+                                    <p>
+                                        1984년 모든 것이 활기찬 시대, 다이애나 프린스는 고고학자로서 인간들 사이에서 조용히 살고 있다. 단지 원더 우먼으로서 위기에
+                                    </p>
+                                    <p class='plus'>자세히보기</p>
+                                </div>
+                            </div>
+                            <div class="btn-util cf">
+                                <button class="like"><span class="material-icons">
+                                    favorite_border
+                                    </span>4</button>
+                                <button class="ticket">예매</button>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="poster">
+                        <a href="#">
+                            <div class="screen">
+                                <img src="images/replay.jpg" alt="replay">
+                                <div class="movie_direction">
+                                    <p>우리가 '우리'로 연결되는 모든 순간들의 기록</p>
+                                    <p>미국은 물론 전 세계를 충격에 빠뜨린 날, 우연한 계기로 만난 뮤지션 '앨리엇'과 '조니'는 LA에서 뉴욕까지 비행기 대신</p>
+                                    <p class='plus'>자세히보기</p>
+                            </div>
+                            <div class="btn-util cf">
+                                <button class="like"><span class="material-icons">
+                                    favorite_border
+                                    </span>3</button>
+                                <button class="ticket">예매</button>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="poster">
+                        <a href="#">
+                            <div class="screen">
+                                <img src="images/joje.jpg" alt="joje">
+                                <div class="movie_direction">
+                                    <p>자신을 '조제'로 불러달라는 그녀 처음 만난 그날부터 '조제'는 '영석'에게 잊을 수 없는 이름으로 남는다.</p>
+                                    <p>할머니와 단둘이 사는 집, 그곳에서 책을 읽고 상상하며</p>
+                                    <p class='plus'>자세히보기</p>
+                            </div>
+                            <div class="btn-util cf">
+                                <button class="like"><span class="material-icons">
+                                    favorite_border
+                                    </span>2</button>
+                                <button class="ticket">예매</button>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="poster">
+                        <a href="#">
+                            <div class="screen">
+                                <img src="images/santiago.jpg" alt="santiago">
+                                <div class="movie_direction">
+                                    <p>1급 시각장애인으로 사물의 어렴풋한 형상만 겨우 볼 수 있는 '재한'과 비인가 대안학교 졸업반으로 불확실한 미래에 대한 고민을 안고 있는 '다희'는 수백 킬로미터에 달하는 길고 험</p>
+                                    <p class='plus'>자세히보기</p>
+                            </div>
+                            <div class="btn-util cf">
+                                <button class="like">
+                                    <span class="material-icons">
+                                        favorite_border
+                                        </span>1</button>
+                                <button class="ticket">예매</button>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <ul class='search cf'>
+                    <li>
+                        <div class="search_bar">
+                            <input type="text" name="search" id="search" placeholder="영화를 검색하세요">
+                            <button type="button" class='btn' id='btnSearch'>
+                                <span class="material-icons">
+                                    search
+                                    </span>
+                            </button>
+                        </div>
+                    </li>
+                    <li class="cell">
+                        <a href="#">
+                            <span class="material-icons">
+                                calendar_today
+                            </span>
+                            상영시간표
+                        </a>    
+                    </li>
+                    <li class="cell">
+                        <a href="#">
+                            <span class="material-icons">
+                                theaters
+                            </span>
+                            박스오피스
+                        </a>
+                    </li>
+                    <li class="cell">
+                        <a href="#">
+                            <span class="material-icons">
+                                movie
+                            </span>
+                            빠른예매
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="main">
+            <div class="benefit">
+                <h1>혜택</h1>
+                <div class="content_bene">
+                    <div class="slider">
+                        <div class="slider_view">
+                            <div class="slide">
+                                <div class="slide_txt active"><a href="#">
+                                    <img src="images/benner_Lpoint_1.jpg" alt="benner">
+                                </a>
+                                </div>
+                                <div class="slide_bg active">
+                                    <a href="#">
+                                        <img src="images/benner_Lpoint_2.jpg" alt="benner">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="slide_txt"><a href="#">
+                                    <img src="images/benner_7point_1.jpg" alt="benner">
+                                </a>
+                                </div>
+                                <div class="slide_bg">
+                                    <a href="#">
+                                        <img src="images/benner_7point_2.png" alt="benner">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="slide_txt"><a href="#">
+                                    <img src="images/benner_pet_1.jpg" alt="benner">
+                                </a>
+                                </div>
+                                <div class="slide_bg">
+                                    <a href="#">
+                                        <img src="images/benner_pet_2.jpg" alt="benner">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="slide_txt"><a href="#">
+                                    <img src="images/benner_Mpoint_1.jpg" alt="benner">
+                                </a>
+                                </div>
+                                <div class="slide_bg">
+                                    <a href="#">
+                                        <img src="images/benner_Mpoint_2.jpg" alt="benner">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="slide_txt"><a href="#">
+                                    <img src="images/benner_welcome_1.jpg" alt="benner">
+                                </a>
+                                </div>
+                                <div class="slide_bg">
+                                    <a href="#">
+                                        <img src="images/benner_welcome_2.png" alt="benner">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="slide_txt"><a href="#">
+                                    <img src="images/benner_vip_1.jpg" alt="benner">
+                                </a>
+                                </div>
+                                <div class="slide_bg">
+                                    <a href="#">
+                                        <img src="images/benner_vip_2.png" alt="benner">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="slide_txt"><a href="#">
+                                    <img src="images/benner_Lpoint_1.jpg" alt="benner">
+                                </a>
+                                </div>
+                                <div class="slide_bg">
+                                    <a href="#">
+                                        <img src="images/benner_Lpoint_2.jpg" alt="benner">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slier_control"></div>
+                    </div>
+                    <div class="adver">
+                        <a href="#">
+                            <img src="images/benefit.jpg" alt="benefit">
+                        </a>
+                    </div>
+                    <div class="banner cf">
+                        <div class="benner_one">
+                            <img src="images/benner_two.jpg" alt="banner">
+                        </div>
+                        <div class="benner_two">
+                            <img src="images/benner_three.jpg" alt="banner">
+                        </div>
+                    </div>
+                </div>
+                <div class="menu_bene">
+                    <ul class='cf'>
+                        <li><a href="#"><i class="far fa-gem"></i><br>VIP LOUNGE</a></li>
+                        <li><a href="#"><i class="fas fa-user"></i><br>맴버십</a></li>
+                        <li><a href="#"><i class="fas fa-credit-card"></i><br>할인카드안내</a></li>
+                        <li><a href="#"><i class="fas fa-gift"></i><br>이벤트</a></li>
+                        <li><a href="#"><i class="fas fa-store"></i><br>스토어</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="main">
+            <div class="information">
+                <h1>메가박스 안내</h1>
+                <div class="sinema cf">
+                    <ul>
+                        <li><img src="images/bg-main-megainfo-dolby.png" alt="dolby"></li>
+                        <li><img src="images/bg-main-megainfo-private.png" alt="private"></li>
+                        <li><img src="images/bg-main-megainfo-boutique.png" alt="boutique"></li>
+                        <li><img src="images/bg-main-megainfo-mx.png" alt="mx"></li>
+                        <li><img src="images/bg-main-megainfo-comfort.png" alt="comfort"></li>
+                        <li><img src="images/bg-main-megainfo-kids.png" alt="kids"></li>
+                    </ul>
+                </div>
+                <div class="notice cf">
+                    <span class='note_list'>지점</span>
+                    <a href="#">
+                        <span><b>[정관]</b> [정관]영화 관람 요금 조정 안내</span>
+                    </a>
+                </div>
+                <div class="help cf">
+                    <ul class="cf">
+                        <li><a href="#"><i class="fas fa-headphones"></i><br>고객센터</a></li>
+                        <li><a href="#"><i class="fas fa-comments"></i><br>자주 묻는 질문</a></li>
+                        <li><a href="#"><i class="fas fa-comment-dots"></i><br>1:1 문의</a></li>
+                        <li><a href="#"><i class="fas fa-users"></i><br>단체/대관문의</a></li>
+                        <li><a href="#"><i class="fas fa-box-open"></i><br>분실물 문의/접수</a></li>
+                        <li><a href="#"><i class="fas fa-video"></i><br>더 부티크 프라이빗</a></li>
+                    </ul>
+                </div>
+                <div class="footer">
+                    <ul class="company cf">
+                        <li>회사소개</li>
+                        <li>인재채용</li>
+                        <li>사회공헌</li>
+                        <li>제휴/광고/부대사업문의</li>
+                        <li>이용약관</li>
+                        <li><b>개인정보처리방침</b></li>
+                        <li>윤리경영</li>
+                    </ul>
+                    <div class="info cf">
+                        <div class="f_logo">
+                            <img src="images/magaboxLogo.png" alt="logo">
+                        </div>
+                        <div class="f_company">
+                            서울특별시 마포구 월드컵로 240, 지상2층(성산동, 월드컵주경기장) ARS 1544-0070<br>
+대표자명 김진선 · 개인정보보호책임자 조상연 · 사업자등록번호 211-86-59478 · 통신판매업신고번호 제 833호<br>
+COPYRIGHT © MegaboxJoongAng, Inc. All rights reserved
+                        </div>
+                    </div>
+                    <div class="f_sns">
+                        <ul class="cf">
+                            <li><i class="fab fa-twitter-square"></i></li>
+                            <li><i class="fab fa-facebook-square"></i></li>
+                            <li><i class="fab fa-instagram"></i></li>
+                            <li><i class="fab fa-google-play"></i></li>
+                            <li><i class="fab fa-app-store-ios"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="side">
+        <h1 class="logo">
+            <img src="images/magaboxLogo.png" alt="Logo" style="width:212px;">
+        </h1>
+        <div class="logon">
+            <ul class='cf'>
+                <li>로그인</li>
+                <li>회원가입</li>
+                <li>빠른예매</li>
+            </ul>
+        </div>
+        <ul class="gnb">
+            <li class="title">영화
+                <ul class="sub_title">
+                    <li>전체영화</li>
+                    <li>큐레이션</li>
+                    <li>무비포스트</li>
+                </ul>
+            </li>
+            <li class="title">예매
+                <ul class="sub_title">
+                    <li>빠른예매</li>
+                    <li>상영시간표</li>
+                    <li>더 부티크 프라이빗 예매</li>
+                </ul>
+            </li>
+            <li class="title">극장
+                <ul class="sub_title">
+                    <li>전체극장</li>
+                    <li>특별관</li>
+                </ul>
+            </li>
+            <li class="title">이벤트
+                <ul class="sub_title">
+                    <li>진행중이벤트</li>
+                    <li>지난이벤트</li>
+                    <li>당첨자발표</li>
+                </ul class="sub_title">
+            </li>
+            <li class="title">스토어
+                <ul class="sub_title">
+                    <li>새로운상품</li>
+                    <li>메가티켓</li>
+                    <li>메가찬스</li>
+                    <li>팝콘/음료/굿즈</li>
+                </ul>
+            </li>
+            <li class="title">혜택
+                <ul class="sub_title">
+                    <li>맴버십 안내</li>
+                    <li>VIP LOUNGE</li>
+                    <li>제휴/할인</li>
+                </ul>
+            </li>
+        </ul>
+        <div class="center">
+            <ul>
+                <li>VIP LOUNGE</li>
+                <li>맴버십</li>
+                <li>고객센터</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

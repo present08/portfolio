@@ -12,6 +12,37 @@ document.addEventListener('scroll', () => {
   }
 });
 
+//home title
+const title = document.querySelector('.home__title');
+function homeTitle() {
+  title.style.left = '150px';
+  title.style.opacity = 0.8;
+}
+
+homeTitle();
+
+//scroll
+const about_h1 = document.querySelector('.aboutMe');
+const about_ava = document.querySelector('.about__avatar');
+const about_con = document.querySelector('.about__container--main');
+
+window.addEventListener('scroll', (e) => {
+  let winY = window.scrollY;
+  if (winY >= 600) {
+    about_h1.style.top = '50px';
+    about_h1.style.opacity = 1;
+  }
+  if (winY >= 750) {
+    about_ava.style.top = '200px';
+    about_ava.style.opacity = 1;
+  }
+  if (winY >= 900) {
+    about_con.style.top = '0';
+    about_con.style.opacity = 1;
+  }
+  console.log(winY);
+});
+
 // reponsive navbar handler
 const navbarToggleBtn = document.querySelector('.navbar__toggle-btn');
 const navbarMenu = document.querySelector('.navbar__menu');

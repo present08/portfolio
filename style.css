@@ -160,11 +160,12 @@ button {
 .home__title {
   position: absolute;
   top: 550px;
-  left: 150px;
+  left: 1200px;
   border: 8px solid var(--color-white);
   border-radius: var(--size--border-radius-big);
   padding: 24px;
-  opacity: 0.8;
+  opacity: 0;
+  transition: all 0.8s ease-out;
 }
 
 .home__title-title {
@@ -192,19 +193,30 @@ button {
   border-radius: 50%;
   background: url('main_avatar.jpg') center/cover;
   position: absolute;
-  top: 200px;
+  top: 300px;
   left: 200px;
+  opacity: 0;
+  transition: all 0.8s ease;
 }
 
 #about > h1 {
   text-align: center;
   position: relative;
-  top: 50px;
+  top: 150px;
+  opacity: 0;
+  transition: all 0.8s ease;
 }
 
 .about__container--main,
 .about__container--profile {
   padding: 48px;
+  position: relative;
+}
+
+.about__container--main {
+  top: 100px;
+  opacity: 0;
+  transition: all 0.8s ease;
 }
 
 .about__description {
@@ -226,6 +238,7 @@ button {
   padding: 16px;
   background: var(--color-blue);
   margin: 16px;
+  border-radius: 10px;
 }
 
 .about__info {
@@ -392,6 +405,15 @@ h3 {
   transform: translateY(10px);
   transition: all var(--animation-duration) ease-out;
 }
+
+.desBtn button {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  padding: 8px;
+  top: 50px;
+}
+
 .project__description h3,
 span {
   color: var(--color-white);
