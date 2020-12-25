@@ -12,15 +12,6 @@ document.addEventListener('scroll', () => {
   }
 });
 
-//home title
-const title = document.querySelector('.home__title');
-function homeTitle() {
-  title.style.left = '150px';
-  title.style.opacity = 0.8;
-}
-
-homeTitle();
-
 //scroll
 const about_h1 = document.querySelector('.aboutMe');
 const about_ava = document.querySelector('.about__avatar');

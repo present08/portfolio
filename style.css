@@ -160,12 +160,11 @@ button {
 .home__title {
   position: absolute;
   top: 550px;
-  left: 1200px;
+  left: 150px;
   border: 8px solid var(--color-white);
   border-radius: var(--size--border-radius-big);
   padding: 24px;
-  opacity: 0;
-  transition: all 0.8s ease-out;
+  opacity: 0.8;
 }
 
 .home__title-title {
