@@ -150,7 +150,7 @@ function App() {
         </div>
         <div className='projects'>
           {projectList.map(item =>
-          (<div className='screen'>
+          (<div className='screen' key={item}>
             <div style={{ overflow: 'hidden', width: '100%', height: '100%' }}>
               <img className='screenshot' src={item.img} alt="main" />
             </div>
