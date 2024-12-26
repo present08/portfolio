@@ -40,6 +40,7 @@ const init = [
 
 function App() {
   const [projectList, setProjectList] = useState(init);
+  const [origin, setOrigin] = useState(init);
   const [projects, setProjects] = useState(['All', 'Single', 'Multiple'])
   const [prevItem, setPrevItem] = useState('');
 
@@ -47,7 +48,7 @@ function App() {
     if (item != "All") {
       switch (prevItem) {
         case '':
-          setProjectList(projectList.filter(value => value.project_type == item));
+          setProjectList(origin.filter(value => value.project_type == item));
           setPrevItem(item);
           break;
         case item:
@@ -56,7 +57,7 @@ function App() {
           break;
         default:
           setPrevItem(item);
-          setProjectList(init);
+          setProjectList(origin.filter(value => value.project_type == item));
           break;
       }
     } else {
