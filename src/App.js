@@ -13,28 +13,40 @@ const init = [
     project_type: 'Multiple',
     img: smarty_img,
     github: 'https://github.com/present08/Smarty',
-    read_more: 'https://eastern-citrus-892.notion.site/Smarty-1180573b9fca8096acf0ec357844e9e2?pvs=74'
+    read_more: 'https://eastern-citrus-892.notion.site/Smarty-1180573b9fca8096acf0ec357844e9e2?pvs=74',
+    comment: '💬 학원 프로젝트인 복합문화체육시설 통합관리 시스템을 개발 하였습니다.',
+    skills: ['react', 'spring', 'mybatis', 'mysql'],
+    contribution: ["사이트 주요 시스템 개발", "팀 Github 총괄", "EC2 & Docker 배포(진행중)"],
   },
   {
     project_name: 'Smarty_Chatbot',
     project_type: 'Single',
     img: smarty_chatbot,
     github: 'https://github.com/present08/Smarty_Chatbot',
-    read_more: 'https://eastern-citrus-892.notion.site/1270573b9fca80efa186f994ba542448?v=1270573b9fca803995b5000cf34e4a6a'
+    read_more: 'https://eastern-citrus-892.notion.site/1270573b9fca80efa186f994ba542448?v=1270573b9fca803995b5000cf34e4a6a',
+    comment: '💬 Smarty 프로젝트의 Side 프로젝트 Chat-bot',
+    skills: ['python', 'mysql'],
+    contribution: ["Web Socket을 이용한 실시간 통신", "딥 러닝 기술을 이용하여 자가학습 기능 구현", "EC2 & Docker 배포(진행중)"],
   },
   {
     project_name: 'Smarty_QR Attendance',
     project_type: 'Single',
     img: noimg,
     github: 'https://github.com/present08/Smarty_QR',
-    read_more: 'https://eastern-citrus-892.notion.site/1620573b9fca80edab0bc2e7799d0b28?v=085be88104124406a4e72ec5885b47f3'
+    read_more: 'https://eastern-citrus-892.notion.site/1620573b9fca80edab0bc2e7799d0b28?v=085be88104124406a4e72ec5885b47f3',
+    comment: '💬 Smarty 프로젝트의 Side 프로젝트 QR 출석시스템',
+    skills: ['python','mysql'],
+    contribution:  ["OpenCV를 이용한 캠 화면 구현", "EC2 & Docker 배포(진행중)"],
   },
   {
     project_name: 'SRT_Reservation_Macro',
     project_type: 'Single',
     img: srtReservation,
     github: 'https://github.com/present08/SRT_reservation',
-    read_more: 'https://github.com/present08/SRT_reservation/blob/main/Readme.md'
+    read_more: 'https://github.com/present08/SRT_reservation/blob/main/Readme.md',
+    comment: '💬 웹 크롤링 연습, SRT 예약 매크로 개발',
+    skills: ['python'],
+    contribution: ["예약 매크로","웹 크롤링"],
   },
 ]
 
@@ -91,7 +103,7 @@ function App() {
             <h1 style={{ margin: "30px", marginLeft: 0, textAlign: 'right', fontSize: '35px' }}>👩🏻‍💻 PROFILE</h1>
             <h2 className='intro_title'>Intro</h2>
             <p> 저는 효율적이고 안정적인 서버 구조와 API 설계를 통해 웹 애플리케이션을 뒷받침하는 <br />
-              <b>Back-End 개발자 조무암입니다. </b></p>
+              <b>Back-End 개발자 조무암입니다. </b></p><br />
             {/* <p>저는 항상 새로운 기술을 배우고 적용하는 것을 즐기며,<br />이를 통해 시스템의 성능과 확장성을 개선하는 데에 끊임없이 노력합니다.</p> */}
             <p style={{ marginBottom: '100px' }}><strong>문제를 해결하려는 끊임없는 의지, 팀과의 협업을 통한 성과, 그리고 지속적인 자기 개발</strong><br />
               이 모든 요소들이 제 강점이며, 이를 바탕으로 안정적이고<br />확장 가능한 시스템을 구축하여 회사와 사용자에게 가치를 더하는 것이 제 목표입니다.</p>
@@ -100,7 +112,7 @@ function App() {
                 <div>
                   <h2
                     className='intro_title'>Education</h2><br />
-                  <b style={{ fontSize: '1.1em' }}>진도실업고등학교 졸업</b><span style={{ color: 'gray', fontSize: '0.8em' }}><br />2015.02</span><br />
+                  {/* <b style={{ fontSize: '1.1em' }}>진도실업고등학교 졸업</b><span style={{ color: 'gray', fontSize: '0.8em' }}><br />2015.02</span><br /> */}
                   <b style={{ fontSize: '1.1em' }}>웹 표준 실무 (html, css)</b><span style={{ color: 'gray', fontSize: '0.8em' }}><br />하이미디어컴퓨터학원 2019.03 ~ 2019.05</span><br />
                   <b style={{ fontSize: '1.1em' }}>웹 표준 실무 (javascript)</b><span style={{ color: 'gray', fontSize: '0.8em' }}><br />하이미디어컴퓨터학원 2019.05 ~ 2019.07</span><br />
                   <b style={{ fontSize: '1.1em' }}>노코드 기반 웹 실무</b><span style={{ color: 'gray', fontSize: '0.8em' }}><br />성남그린컴퓨터아카데미 2024.06 ~ 2025.01</span>
@@ -110,18 +122,24 @@ function App() {
                     className='intro_title'>Skill</h2>
                   <div className='skills'>
                     <div style={{ marginRight: '30px' }}>
-                      <h2><img src="https://img.icons8.com/ios/250/000000/settings.png" alt="server" /> Back End</h2>
+                      <h2><img src="https://img.icons8.com/ios/250/000000/settings.png" alt="server" /> BE</h2>
                       <div className='back'>
                         <div className='java logo'></div>
                         <div className='spring logo'></div>
                         <div className='mybatis logo'></div>
                         <div className='nodejs logo'></div>
                       </div>
-                      <h2><img src="https://img.icons8.com/ios/250/000000/application-window.png" alt="web" /> Front End</h2>
+                      <h2><img src="https://img.icons8.com/ios/250/000000/application-window.png" alt="web" /> FE</h2>
                       <div className='front'>
                         <div className='javascript logo'></div>
                         <div className='react logo'></div>
                         <div className='tailwind logo'></div>
+                      </div>
+                      <h2><img src="https://img.icons8.com/ios/250/000000/application-window.png" alt="web" /> Dev ops</h2>
+                      <div className='front'>
+                        <div className='docker logo'></div>
+                        <div className='linux logo'></div>
+                        <div className='ubuntu logo'></div>
                       </div>
                     </div>
                     <div>
@@ -158,8 +176,23 @@ function App() {
             <div className='btndata'>
               <div className='btnbg'></div>
               <h1>{item.project_name}</h1>
-              <button><a href={item.github} target='_blank'>Github</a></button>
-              <button><a href={item.read_more} target='_blank'>Read More</a></button>
+              <div style={{ backgroundColor: "white", padding: '2%', borderRadius:'10px' }}>
+                <h3 style={{ marginBottom: '20px' }}>{item.comment}</h3>
+                <h3 style={{ marginBottom: '10px' }}>✅ 사용기술 및 언어</h3>
+                <div style={{ marginBottom: '20px' }}>
+                  {item.skills.map(skill => (
+                    <div className={`${skill} logo`}></div>
+                  ))}
+                </div>
+                <h3 style={{ marginBottom: '5px' }}>⚙ 기여 내용</h3>
+                <p>{item.contribution.map(con => (
+                  <p>- {con}</p>
+                ))}</p>
+              </div>
+              <div style={{marginTop:'20px'}}>
+                <button style={{marginRight:'20px'}}><a href={item.github} target='_blank'>Github</a></button>
+                <button><a href={item.read_more} target='_blank'>Read More</a></button>
+              </div>
             </div>
           </div>)
           )}

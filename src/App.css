@@ -114,6 +114,7 @@
 }
 
 .logo {
+  display:inline-block;
   width: 40px;
   height: 40px;
   margin-left: 15px;
@@ -158,6 +159,10 @@
   background-image: url('../public/javascript.png');
 }
 
+.python {
+  background-image: url('../public/python.png');
+}
+
 .tailwind {
   background-image: url('../public/tailwind.png');
 }
@@ -176,6 +181,18 @@
 
 .github {
   background-image: url('../public/github.png');
+}
+
+.docker {
+  background-image: url('../public/docker.png');
+}
+
+.linux {
+  background-image: url('../public/linux.png');
+}
+
+.ubuntu {
+  background-image: url('../public/ubuntu.png');
 }
 
 .github_text {
@@ -307,10 +324,16 @@
 .screen:hover .btndata {
   display: flex;
 }
+.btndata>*{
+  z-index: 1;
+}
 
 .btndata>h1 {
-  z-index: 1;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.btndata>h3 {
+  /* margin-bottom: 20px; */
   color: #fff;
 }
 
@@ -322,15 +345,21 @@
   height: 50px;
   padding: 5px;
   font-size: 20px;
-  background-color: #383838;
-  color: #fff;
+  background-color: white;
   cursor: pointer;
 }
 
 .btndata a{
-  color:#fff;
+  color:#383838;
 }
 
+.btndata button:hover{
+  background-color: #383838;  
+}
+
+.btndata button:hover > a{
+  color: white;
+}
 
 
 /* -----  ----- */
