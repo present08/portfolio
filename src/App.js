@@ -16,7 +16,7 @@ const init = [
     site: 'http://www.smartyacademy.shop',
     read_more: 'https://eastern-citrus-892.notion.site/Smarty-1180573b9fca8096acf0ec357844e9e2?pvs=74',
     comment: '💬 학원 프로젝트인 복합문화체육시설 통합관리 시스템을 개발 하였습니다.',
-    skills: ['react', 'spring', 'mybatis', 'mysql', 'docekr', 'aws', 'githubaction', 'ubuntu'],
+    skills: ['react', 'spring', 'mybatis', 'mysql', 'docker', 'aws', 'githubaction', 'ubuntu'],
     contribution: ["사이트 주요 시스템 개발", "팀 Github 총괄", "EC2 & Docker 배포"],
   },
   {
