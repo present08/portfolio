@@ -192,8 +192,8 @@ function App() {
               </div>
               <div style={{ marginTop: '20px' }}>
                 <button style={{ marginRight: '20px' }}><a href={item.github} target='_blank'>Github</a></button>
-                <button><a href={item.read_more} target='_blank'>Read More</a></button>
-                {item.site ? <button><a href={item.site} target="_blank">site</a></button> : <></>}
+                <button style={{ marginRight: '20px' }}><a href={item.read_more} target='_blank'>Read More</a></button>
+                {item.site ? <button><a href={item.site} target="_blank">Demo Site</a></button> : <></>}
               </div>
             </div>
           </div>)
