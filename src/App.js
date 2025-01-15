@@ -13,10 +13,11 @@ const init = [
     project_type: 'Multiple',
     img: smarty_img,
     github: 'https://github.com/present08/Smarty',
+    site: 'http://smartyacademy.shop',
     read_more: 'https://eastern-citrus-892.notion.site/Smarty-1180573b9fca8096acf0ec357844e9e2?pvs=74',
     comment: '💬 학원 프로젝트인 복합문화체육시설 통합관리 시스템을 개발 하였습니다.',
-    skills: ['react', 'spring', 'mybatis', 'mysql'],
-    contribution: ["사이트 주요 시스템 개발", "팀 Github 총괄", "EC2 & Docker 배포(진행중)"],
+    skills: ['react', 'spring', 'mybatis', 'mysql', 'Docekr', 'AWS'],
+    contribution: ["사이트 주요 시스템 개발", "팀 Github 총괄", "EC2 & Docker 배포"],
   },
   {
     project_name: 'Smarty_Chatbot',
@@ -26,7 +27,7 @@ const init = [
     read_more: 'https://eastern-citrus-892.notion.site/1270573b9fca80efa186f994ba542448?v=1270573b9fca803995b5000cf34e4a6a',
     comment: '💬 Smarty 프로젝트의 Side 프로젝트 Chat-bot',
     skills: ['python', 'mysql'],
-    contribution: ["Web Socket을 이용한 실시간 통신", "딥 러닝 기술을 이용하여 자가학습 기능 구현", "EC2 & Docker 배포(진행중)"],
+    contribution: ["Web Socket을 이용한 실시간 통신", "딥 러닝 기술을 이용하여 자가학습 기능 구현"],
   },
   {
     project_name: 'Smarty_QR Attendance',
@@ -36,7 +37,7 @@ const init = [
     read_more: 'https://eastern-citrus-892.notion.site/1620573b9fca80edab0bc2e7799d0b28?v=085be88104124406a4e72ec5885b47f3',
     comment: '💬 Smarty 프로젝트의 Side 프로젝트 QR 출석시스템',
     skills: ['python','mysql'],
-    contribution:  ["OpenCV를 이용한 캠 화면 구현", "EC2 & Docker 배포(진행중)"],
+    contribution:  ["OpenCV를 이용한 캠 화면 구현"],
   },
   {
     project_name: 'SRT_Reservation_Macro',
@@ -192,6 +193,7 @@ function App() {
               <div style={{marginTop:'20px'}}>
                 <button style={{marginRight:'20px'}}><a href={item.github} target='_blank'>Github</a></button>
                 <button><a href={item.read_more} target='_blank'>Read More</a></button>
+                {item.site ? <button><a href={item.site} target="_blank">site</a></button> : <></>}
               </div>
             </div>
           </div>)
