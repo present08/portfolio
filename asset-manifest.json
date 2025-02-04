@@ -1,25 +1,32 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.483ecd59.css",
-    "main.js": "/portfolio/static/js/main.2f68a631.js",
+    "main.css": "/portfolio/static/css/main.f19c9868.css",
+    "main.js": "/portfolio/static/js/main.87d313ea.js",
     "static/js/488.a9094e1f.chunk.js": "/portfolio/static/js/488.a9094e1f.chunk.js",
-    "static/media/main_avatar.jpg": "/portfolio/static/media/main_avatar.40be9f884065c012633a.jpg",
-    "static/media/srt_reservation.png": "/portfolio/static/media/srt_reservation.a6259ab130521118a655.png",
-    "static/media/smarty_main.png": "/portfolio/static/media/smarty_main.fb9084744d4c563fd740.png",
-    "static/media/smarty_chatbot_quick.png": "/portfolio/static/media/smarty_chatbot_quick.c3c7f01b227b7e6f1ec8.png",
+    "static/media/smarty_QR_mockup.png": "/portfolio/static/media/smarty_QR_mockup.689c1b567a5ab5b61399.png",
+    "static/media/SRT_mockup.png": "/portfolio/static/media/SRT_mockup.1a79e14280f68cf334bb.png",
+    "static/media/smarty_mockup.png": "/portfolio/static/media/smarty_mockup.c151b9cbb7647e6e81d7.png",
+    "static/media/smarty_chatbot_mockup.png": "/portfolio/static/media/smarty_chatbot_mockup.18e1d8d386f56de4857f.png",
+    "static/media/keras.png": "/portfolio/static/media/keras.ba109e0ef6d2c1c7ca1f.png",
     "static/media/linux.png": "/portfolio/static/media/linux.56de15570c07c77faefd.png",
+    "static/media/pytorch.png": "/portfolio/static/media/pytorch.df6d949cfd863412aa06.png",
+    "static/media/numpy.png": "/portfolio/static/media/numpy.4649a82ccf37e01dd256.png",
     "static/media/githubaction.png": "/portfolio/static/media/githubaction.f0082e36be47711023ff.png",
+    "static/media/opencv.png": "/portfolio/static/media/opencv.159e276a87ef7a192125.png",
+    "static/media/tensorflow.png": "/portfolio/static/media/tensorflow.60eb7d5030f428d49a96.png",
+    "static/media/selenium.png": "/portfolio/static/media/selenium.14a5b3d688e3106a6974.png",
+    "static/media/gradle.png": "/portfolio/static/media/gradle.316e0ba9bbd6cb0d8bef.png",
     "static/media/GitHub_Logo.png": "/portfolio/static/media/GitHub_Logo.746ec8f0bc97208f903e.png",
     "static/media/ubuntu.png": "/portfolio/static/media/ubuntu.167c5a23e691952f218e.png",
     "static/media/aws.png": "/portfolio/static/media/aws.c2117d8978bc03ab72a0.png",
     "static/media/react.png": "/portfolio/static/media/react.a735267992861f02c8f2.png",
     "index.html": "/portfolio/index.html",
-    "main.483ecd59.css.map": "/portfolio/static/css/main.483ecd59.css.map",
-    "main.2f68a631.js.map": "/portfolio/static/js/main.2f68a631.js.map",
+    "main.f19c9868.css.map": "/portfolio/static/css/main.f19c9868.css.map",
+    "main.87d313ea.js.map": "/portfolio/static/js/main.87d313ea.js.map",
     "488.a9094e1f.chunk.js.map": "/portfolio/static/js/488.a9094e1f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.483ecd59.css",
-    "static/js/main.2f68a631.js"
+    "static/css/main.f19c9868.css",
+    "static/js/main.87d313ea.js"
   ]
 }
